@@ -5,7 +5,7 @@ let nteor: number;
 let nota: number;
 
 nombre = prompt("Ingrese el nombre del alumno");
-while (nombre != "") {
+while (nombre !== "") {
   nprac = Number(prompt("Nota práctica"));
   nprob = Number(prompt("Nota de problemas"));
   nteor = Number(prompt("Nota teórica"));
